@@ -6,15 +6,15 @@ Updated - 2/21/2021
 [x] Display Adapter\
 [ ] Power Distribution\
 [ ] Processor\
-[ ] Human Interfaces\
+[ ] Human Interfaces
 
 ## PCB Layout
 [ ] Initial Layout\
 [ ] DRC Pass\
 [ ] EMC Pass\
-[ ] Export to Fab House\
+[ ] Export to Fab House
 
 ## Extras
 [ ] Completed BOM\
-[ ] Generate Netlists\
+[ ] Generate Netlists
 
