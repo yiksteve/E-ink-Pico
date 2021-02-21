@@ -1,0 +1,29 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP2045U-7
+D -12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMP2045U.pdf
+$ENDCMP
+#
+$CMP E-ink-Display
+D FFC,0.5mm Pitch,Top Contact,24way Hirose FH12 Series 0.5mm Pitch 24 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
+F https://componentsearchengine.com/Datasheets/2/FH12A-24S-0.5SH(55).pdf
+$ENDCMP
+#
+$CMP FH12A-24S-0.5SH_55_
+D FFC,0.5mm Pitch,Top Contact,24way Hirose FH12 Series 0.5mm Pitch 24 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
+F https://componentsearchengine.com/Datasheets/2/FH12A-24S-0.5SH(55).pdf
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VSYS
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

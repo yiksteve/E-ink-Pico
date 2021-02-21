@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name E-ink-Pico)(type Legacy)(uri ${KIPRJMOD}/E-ink-Pico.lib)(options "")(descr ""))
+)
