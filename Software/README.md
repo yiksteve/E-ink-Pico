@@ -50,3 +50,9 @@ Folder Structure:
     ├── test
     └── tools
 ```
+
+## Build and Flash
+```
+bash ~/E-ink-Pico/Software/build.bash
+cp ~/E-ink-Pico/Software/build/*.uf2 PI_PICO_LOCATION
+```
