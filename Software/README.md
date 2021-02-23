@@ -24,6 +24,10 @@ $ git clone -b master https://github.com/raspberrypi/pico-sdk.git
 $ cd pico-sdk
 $ git submodule update --init
 $ cd ..
+$ git clone -b master https://github.com/raspberrypi/pico-extras.git
+$ cd pico-extras
+$ git submodule update --init
+$ cd ..
 $ sudo apt update
 $ sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
 ```
@@ -37,18 +41,9 @@ Folder Structure:
 │   ├── Resources
 │   └── Software
 └── pico-sdk 
-    ├── CMakeLists.txt
-    ├── LICENSE.TXT
-    ├── README.md
-    ├── cmake
-    ├── docs
-    ├── external
-    ├── lib
-    ├── pico_sdk_init.cmake
-    ├── pico_sdk_version.cmake
-    ├── src
-    ├── test
-    └── tools
+│   └── ...
+└── pico-extras
+    └── ...
 ```
 
 ## Build and Flash
