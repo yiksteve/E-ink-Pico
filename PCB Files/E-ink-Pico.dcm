@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AUX0_3.3V
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP AUX1_3.3V
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
 $CMP DMP2045U-7
 D -12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8
 K P-Channel MOSFET
@@ -11,9 +21,29 @@ D FFC,0.5mm Pitch,Top Contact,24way Hirose FH12 Series 0.5mm Pitch 24 Way Right 
 F https://componentsearchengine.com/Datasheets/2/FH12A-24S-0.5SH(55).pdf
 $ENDCMP
 #
+$CMP EVQ-P7J01P
+D Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm
+F https://www.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf
+$ENDCMP
+#
 $CMP FH12A-24S-0.5SH_55_
 D FFC,0.5mm Pitch,Top Contact,24way Hirose FH12 Series 0.5mm Pitch 24 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
 F https://componentsearchengine.com/Datasheets/2/FH12A-24S-0.5SH(55).pdf
+$ENDCMP
+#
+$CMP FSMSM
+D Tactile switch,SMT,SPST,rect black act Black Button Tactile Switch, SPST 50 mA@ 24 V dc 1.07mm
+F https://www.mouser.com/datasheet/2/418/NG_CD_1437566-3_C2_1437566_3_1_c.dwg-116271.pdf
+$ENDCMP
+#
+$CMP MIC5211-LXYM6-TR
+D Microchip Technology MIC5211-LXYM6-TR, LDO Voltage Regulator Controller, 50mA Adjustable, +/-4% 6-Pin, SOT-23
+F https://www.mouser.com/datasheet/2/268/Microchip%20Technology_07252017_MIC5211-1181192.pdf
+$ENDCMP
+#
+$CMP SPDT_1825232-1
+D TE CONNECTIVITY - 1825232-1 - SLIDE SWITCH, SPDT, 0.2A, 30VDC, SOLDER
+F https://componentsearchengine.com/Datasheets/1/1825232-1.pdf
 $ENDCMP
 #
 $CMP VBAT
