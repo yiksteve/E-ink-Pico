@@ -3,7 +3,9 @@
 #include "hardware/gpio.h"
 #include "pico/binary_info.h"
 #include "pico/sleep.h"
-
+#include "hardware/clocks.h"
+#include "hardware/rosc.h"
+#include "hardware/structs/scb.h"
 
 const uint LED_PIN = 25;
 const uint BUTTON_PIN = 10;
@@ -14,7 +16,8 @@ int main() {
   bi_decl(bi_1pin_with_name(LED_PIN, "On-board LED"));
 
   stdio_init_all();
-  printf("Hello Dormant!\n");
+  printf("Starting Pi Pico!\n");
+  sleep_ms(5000);
 
   gpio_init(LED_PIN);
   gpio_set_dir(LED_PIN, GPIO_OUT);
@@ -32,5 +35,6 @@ int main() {
     printf("LED ON\n");
     sleep_ms(1000);
   }
+
   return 0;
 }
