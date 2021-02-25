@@ -55,6 +55,7 @@ int EPD_7in5_V2_test(void)
         printf("Failed to apply for black memory...\r\n");
         return -1;
     }
+
     printf("Paint_NewImage\r\n");
     Paint_NewImage(BlackImage, EPD_7IN5_V2_WIDTH, EPD_7IN5_V2_HEIGHT, 0, WHITE);
 
@@ -108,15 +109,6 @@ int EPD_7in5_V2_test(void)
     EPD_7IN5_V2_Display(BlackImage);
     DEV_Delay_ms(2000);
 #endif
-
-    // int key0 = 15; 
-    // int key1 = 17; 
-    // int key2 = 2; 
-    // int key3 = 3; 
-    // DEV_GPIO_Mode(key0, 0);
-    // DEV_GPIO_Mode(key1, 0);
-    // DEV_GPIO_Mode(key2, 0);
-    // DEV_GPIO_Mode(key3, 0);
     
     printf("Clear...\r\n");
     EPD_7IN5_V2_Clear();

@@ -30,8 +30,8 @@ int main() {
   sleep_ms(5000);
 
 
-  EPD_7in5_V2_test();
-
+  //EPD_7in5_V2_test();
+  EPD_display_test();
 
   
   while (1) {

@@ -580,7 +580,15 @@ void Paint_DrawString_EN(UWORD Xstart, UWORD Ystart, const char * pString,
             Xpoint = Xstart;
             Ypoint = Ystart;
         }
-        Paint_DrawChar(Xpoint, Ypoint, * pString, Font, Color_Background, Color_Foreground);
+
+        if (* pString == '\n' ) {
+            Xpoint = Xstart;
+            Ypoint += 2*Font->Height;
+        } 
+        else {
+            Paint_DrawChar(Xpoint, Ypoint, * pString, Font, Color_Foreground, Color_Background);
+        }
+        
 
         //The next character of the address
         pString ++;
